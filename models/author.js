@@ -1,5 +1,7 @@
-const express = require('express')
-const { default: mongoose } = require('mongoose')
+//const express = require('express')//
+//const { default: mongoose } = require('mongoose')
+const mongoose = require('mongoose')
+
 
 const authorSchema = new mongoose.Schema({
     name: {
